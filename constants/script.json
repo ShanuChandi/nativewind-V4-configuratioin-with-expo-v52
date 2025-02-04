@@ -1,0 +1,10 @@
+{
+  "intent": "incomplete_task",
+  "response": "That's good to know you have a meeting at 3 PM today.  To help me understand this better as a task, could you tell me:\n\n* What is the meeting about (task name)?\n* Is there any preparation needed for this meeting?\n* How important is this meeting (priority: low, normal, or high)?\n* Is this a work, personal, health or other type of meeting (category)?",
+  "task": {
+    "taskName": null,
+    "dueDate": null,
+    "priority": null,
+    "category": "AIzaSyB92-GYFZ52PIBJPFkTLMVOjRNFmrBLuS0"
+  }
+}
