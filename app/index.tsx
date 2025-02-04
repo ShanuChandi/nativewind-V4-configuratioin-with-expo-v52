@@ -36,7 +36,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const scrollViewRef = useRef<ScrollView>(null);
 
-  const apiKey = "AIzaSyB92-GYFZ52PIBJPFkTLMVOjRNFmrBLuS0"; // Replace with your actual API key
+  const apiKey = process.env.EXPO_PUBLIC_API_KEY || ""; // Replace with your actual API key
 
   useEffect(() => {
     // Scroll to the bottom whenever messages change
